@@ -1,0 +1,23 @@
+{
+  "name": "ynap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "java -jar productservice.jar & next"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "mobx": "^2.6.2",
+    "mobx-react": "^3.5.9",
+    "mobx-react-form": "^1.13.26",
+    "next": "^1.1.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "rfx-core": "^1.4.3",
+    "universal-fetch": "^1.0.0",
+    "validatorjs": "^3.8.0"
+  }
+}
