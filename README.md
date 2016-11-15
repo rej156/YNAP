@@ -11,5 +11,6 @@ I did try using '{ id: 1 }'/'{ ID: 1 }' on /product, /products, /product/1!
 ```
 - [ ] yarn
 - [ ] npm start
+- [ ] Open http://localhost:3000
 
 ```
