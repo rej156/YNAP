@@ -13,9 +13,10 @@ class Product {
 }
 
 export default class ProductStore {
-  constructor() {
+  constructor(payload) {
+    const products = payload && payload.products || []
     extendObservable(this, {
-      products: []
+      products
     })
   }
 

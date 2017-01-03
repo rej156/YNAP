@@ -8,7 +8,7 @@ import { dehydrate } from 'rfx-core'
 
 const initStores = (isServer, initialState) => {
   if(isServer && typeof window === 'undefined') {
-    return store.init(initialState)
+    return initialState ? store.inject(JSON.parse(initialState)) : store.inject()
   }
   else {
     if (!window.store){
